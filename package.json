@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@alchemy/aa-accounts": "^1.2.0",
+    "@alchemy/aa-alchemy": "^1.2.0",
+    "@alchemy/aa-core": "^1.2.0",
+    "@t3-oss/env-core": "^0.7.1",
+    "@t3-oss/env-nextjs": "^0.7.1",
+    "@web3auth/base": "^7.2.0",
+    "@web3auth/modal": "^7.2.0",
+    "@web3auth/no-modal": "^7.2.0",
+    "next": "13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "viem": "^1.16.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "autoprefixer": "^10",
+    "daisyui": "^3.9.2",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  },
+  "name": "aa-simple-dapp",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "version": "1.0.1"
+}
